@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+}
+
+:root {
+    --mainColor: rgb(100,124,35);
+    /* --bckgrndColor: rgba(201, 205, 207, 1);
+    --iconColors: rgba(229, 243, 246, 1);
+    --overlayStart: rgba(129, 227, 234, 0.5);
+    --overlayEnd: rgba(123, 220, 234, 0.1);
+    --ease: all 0.8s ease 0s; */
+}
+
+/* Landing page */
+nav{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+
+
+#nav-0{
+    height: 70px;
+    width: 110px;
+    border: red solid 1px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(0.5%);
+}
+
+#nav-1{
+    height: 70px;
+    width: 110px;
+    border: green solid 1px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(0.5%);
+}
+
+#nav-2{
+    height: 70px;
+    width: 110px;
+    border: blue solid 1px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(0.5%);
+
+}
+
+#nav-3{
+    height: 70px;
+    width: 110px;
+    border: yellow solid 1px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(0.5%);
+}
+
+
+
+#mainContent{
+
+
+}
+
+
+footer{
+    margin-top: 60em;
+    height: auto;
+    background-color: grey; /* prob temporary */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-0{
+    float: left;
+    text-align: center;
+    margin-left: 10em;
+}
+
+#footer-title-0{
+
+}
+
+#footer-1{
+    float: right;
+    text-decoration: none;
+    margin-right: 40em;
+}
+
+
+/* Privacy Policy Page */
+#privacypolicy-embed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
