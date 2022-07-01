@@ -286,8 +286,13 @@ footer{
     align-items: center;
     align-self: center;
     justify-self: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 1200px;
+    height: 1300px;
 }
 
+/*-------------------------------*/
 
 .custom-shape-divider-bottom-1656656038 {position: absolute;bottom: 0;left: 0;width: 100%;overflow: hidden;line-height: 0;}
 .custom-shape-divider-bottom-1656656038 svg {position: relative;display: block;width: calc(100% + 1.3px);height: 117px;transform: rotateY(180deg);}
