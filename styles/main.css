@@ -237,6 +237,41 @@ nav{
     font-size: 24px;
 }
 
+.custom-shape-divider-bottom-1656656038 {position: absolute;bottom: 0;left: 0;width: 100%;overflow: hidden;line-height: 0;}
+.custom-shape-divider-bottom-1656656038 svg {position: relative;display: block;width: calc(100% + 1.3px);height: 117px;transform: rotateY(180deg);}
+.custom-shape-divider-bottom-1656656038 .shape-fill {fill: var(--lightblue-background-bottomhalf);}
+
+
+.custom-shape-divider-bottom-1656710643 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateX(180deg) translateY(-81em);
+}
+
+.custom-shape-divider-bottom-1656710643 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 195px;
+}
+
+.custom-shape-divider-bottom-1656710643 .shape-fill {
+    fill: var(--lightblue-background-bottomhalf);
+}
+
+
+#ben{
+    background-color: var(--lightblue-background-bottomhalf);
+    height: 100vh;
+    transform: translateY(63vh);
+}
+
+
+
 /*--------------------------------------*/
 
 footer{
@@ -294,35 +329,9 @@ footer{
 
 /*-------------------------------*/
 
-.custom-shape-divider-bottom-1656656038 {position: absolute;bottom: 0;left: 0;width: 100%;overflow: hidden;line-height: 0;}
-.custom-shape-divider-bottom-1656656038 svg {position: relative;display: block;width: calc(100% + 1.3px);height: 117px;transform: rotateY(180deg);}
-.custom-shape-divider-bottom-1656656038 .shape-fill {fill: var(--lightblue-background-bottomhalf);}
+/* About Page */
 
-
-.custom-shape-divider-bottom-1656710643 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotateX(180deg) translateY(-81em);
-}
-
-.custom-shape-divider-bottom-1656710643 svg {
-    position: relative;
-    display: block;
-    width: calc(145% + 1.3px);
-    height: 195px;
-}
-
-.custom-shape-divider-bottom-1656710643 .shape-fill {
-    fill: var(--lightblue-background-bottomhalf);
-}
-
-
-#ben{
-    background-color: var(--lightblue-background-bottomhalf);
-    height: 100vh;
-    transform: translateY(63vh);
+#about-MainContent h1{
+    text-align: center;
+    font-size: 42px;
 }
