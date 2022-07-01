@@ -22,7 +22,7 @@ nav{
 
 #nav-0{
     height: 70px;
-    width: 110px;
+    width: 160px;
     border: red solid 1px;
     float: left;
     text-align: center;
@@ -69,8 +69,31 @@ nav{
 
 
 #mainContent{
+    padding: 10em;
+}
 
+#welcome-container{
+    border: 1px black solid;
+}
 
+#welcome-text{
+    float: left;
+}
+
+#welcome-text-title{
+    font-size: 75px;
+}
+
+#welcome-text-subtitle{
+    font-size: 30px;
+}
+
+#welcome-image{
+    float: right;
+}
+
+#topgg-promo-container{
+    clear: both;
 }
 
 
