@@ -160,7 +160,9 @@ nav{
 }
 
 #mainContent{
-    padding: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 10em;
 }
 
 #welcome-container{
@@ -210,16 +212,14 @@ nav{
 #topgg{
     background-image: url("svg-files/blob-1.svg");
     background-repeat: no-repeat;
-    transform: translateY(46em) translateX(-48em);
+    transform: translateY(-25em) translateX(-48em);
     width: 1000px;
     height: 1000px;
 }
 
-
 #topgg-promo-container{
     clear: both;
-    transform: translateX(10em) translateY(10em);
-    background-color: var(--lightblue-background-bottomhalf);
+    transform: translateX(20em) translateY(-62em);
 }
 
 #topgg-promo-widget{
@@ -228,7 +228,7 @@ nav{
 
 #topgg-promo-text{
     float: right;
-    transform: translateX(-15em);
+    transform: translateX(-25em);
 }
 
 #topgg-promo-text h1{
@@ -239,11 +239,13 @@ nav{
     font-size: 24px;
 }
 
+/*--------------------------------------*/
+
 footer{
-    margin-top: 20em;
     height: auto;
     background-color: black; 
     height: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,8 +290,6 @@ footer{
 }
 
 
-
-
 .custom-shape-divider-bottom-1656656038 {
     position: absolute;
     bottom: 0;
@@ -308,5 +308,13 @@ footer{
 }
 
 .custom-shape-divider-bottom-1656656038 .shape-fill {
-    fill: #FFFFFF;
+    fill: var(--lightblue-background-bottomhalf);
+}
+
+
+
+#ben{
+    background-color: var(--lightblue-background-bottomhalf);
+    height: 100vh;
+    transform: translateY(63vh);
 }
