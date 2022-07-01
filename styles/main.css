@@ -1,14 +1,20 @@
+/* baloo2 */
+/* Balsamiq Sans */
+/* Pompiere */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
 *{
     margin: 0 auto;
+    font-family: "Baloo Bhai 2" !important;
 }
 
 :root {
-    --mainColor: rgb(100,124,35);
+    --greyTone1:#808080;
     /* --bckgrndColor: rgba(201, 205, 207, 1);
     --iconColors: rgba(229, 243, 246, 1);
     --overlayStart: rgba(129, 227, 234, 0.5);
-    --overlayEnd: rgba(123, 220, 234, 0.1);
-    --ease: all 0.8s ease 0s; */
+    --overlayEnd: rgba(123, 220, 234, 0.1); */
+    --ease: all 0.8s ease 0s; 
 }
 
 /* Landing page */
@@ -22,51 +28,131 @@ nav{
 
 #nav-0{
     height: 70px;
-    width: 160px;
-    border: red solid 1px;
+    width: 216px;
+    /* border: red solid 1px; */
     float: left;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(0.5%);
+    /* margin-top: calc(0.5%);
+    margin-left: 0.5em */
+    transform: translateX(1em) translateY(0.65em);
+    color: var(--greyTone1);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#nav-0:hover{
+    cursor: pointer;
+}
+
+#nav-0 a{
+    text-decoration: none;
 }
 
 #nav-1{
     height: 70px;
     width: 110px;
-    border: green solid 1px;
+    /* border: green solid 1px; */
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(0.5%);
+    /* margin-top: calc(0.5%); */
+    /* margin-left: 1em; */
+    /* margin-right: 1.5em; */
+    transform: translateX(-1em) translateY(0.8em);
+    transition: var(--ease);
+    color: var(--greyTone1);
+    text-decoration: none;
+}
+
+#nav-1:hover{
+    height: 70px;
+    width: 110px;
+    /* border: red solid 1px; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: calc(0.5%);
+    margin-left: 1em;
+    margin-right: 1.5em; */
+    transition: var(--ease);
+    color: #fff;
+}
+
+#nav-1 a{
+    text-decoration: none;
 }
 
 #nav-2{
     height: 70px;
     width: 110px;
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(0.5%);
+    /* margin-top: calc(0.5%);
+    margin-left: 1em; */
+    transform: translateX(-2em) translateY(0.8em);
+    transition: var(--ease);
+    color: var(--greyTone1);
+    text-decoration: none;
+}
 
+#nav-2:hover{
+    height: 70px;
+    width: 110px;
+    /* border: red solid 1px; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: calc(0.5%);
+    margin-left: 1em; */
+    transition: var(--ease);
+    color: #fff;
+}
+
+#nav-2 a{
+    text-decoration: none;
 }
 
 #nav-3{
     height: 70px;
     width: 110px;
-    border: yellow solid 1px;
+    /* border: yellow solid 1px; */
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(0.5%);
+    /* margin-top: calc(0.5%); */
+    transform: translateX(-3em) translateY(0.8em);
+    transition: var(--ease);
+    color: var(--greyTone1);
+    text-decoration: none;
 }
 
+#nav-3:hover{
+    height: 70px;
+    width: 110px;
+    /* border: red solid 1px; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: calc(0.5%);
+    margin-left: 1em; */
+    transition: var(--ease);
+    color: #fff;
+}
 
+#nav-3 a{
+    text-decoration: none;
+}
 
 #mainContent{
     padding: 10em;
@@ -88,12 +174,42 @@ nav{
     font-size: 30px;
 }
 
+#welcome-text-caption{
+    
+}
+
 #welcome-image{
     float: right;
 }
 
+#welcome-button-link-redirect:hover{
+    transition: var(--ease);
+    cursor: pointer;
+    
+}
+
+#welcome-button-link-redirect{
+    transition: var(--ease);
+}
+
+#welcome-button-invite{
+    border-radius: 100px;
+    height: 60px;
+    width: 300px;
+    /* background-color: rgb(88, 101, 242); */
+    border: none;
+    transform: translateY(1.5em);
+}
+
+
 #topgg-promo-container{
     clear: both;
+    transform: translateY(5em);
+}
+
+
+#topgg-promo-widget{
+    width: calc(18%);
 }
 
 
@@ -113,9 +229,9 @@ footer{
     margin-left: 10em;
 }
 
-#footer-title-0{
-
-}
+/* #footer-title-0{
+    
+} */
 
 #footer-1{
     float: right;
