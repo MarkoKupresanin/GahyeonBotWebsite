@@ -8,13 +8,15 @@
     font-family: "Baloo Bhai 2" !important;
 }
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 :root {
     --greyTone1:#808080;
-    /* --bckgrndColor: rgba(201, 205, 207, 1);
-    --iconColors: rgba(229, 243, 246, 1);
-    --overlayStart: rgba(129, 227, 234, 0.5);
-    --overlayEnd: rgba(123, 220, 234, 0.1); */
     --ease: all 0.8s ease 0s; 
+    --ease-color: color 0.8s ease 0s;
+    --lightblue-background-bottomhalf:  #cceeff;
 }
 
 /* Landing page */
@@ -205,26 +207,47 @@ nav{
     transform: translateY(1.5em);
 }
 
+#topgg{
+    background-image: url("svg-files/blob-1.svg");
+    background-repeat: no-repeat;
+    transform: translateY(46em) translateX(-48em);
+    width: 1000px;
+    height: 1000px;
+}
+
 
 #topgg-promo-container{
     clear: both;
-    transform: translateY(5em);
+    transform: translateX(10em) translateY(10em);
+    background-color: var(--lightblue-background-bottomhalf);
 }
-
 
 #topgg-promo-widget{
     width: calc(18%);
 }
 
+#topgg-promo-text{
+    float: right;
+    transform: translateX(-15em);
+}
+
+#topgg-promo-text h1{
+    font-size: 69px;
+}
+
+#topgg-promo-text p{
+    font-size: 24px;
+}
 
 footer{
-    margin-top: 60em;
+    margin-top: 20em;
     height: auto;
-    background-color: grey; /* prob temporary */
+    background-color: black; 
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #footer-0{
@@ -233,9 +256,20 @@ footer{
     margin-left: 10em;
 }
 
-/* #footer-title-0{
-    
-} */
+#footer-title-0{
+    font-size: 18px;
+}
+
+#footer-link{
+    text-decoration: none;
+    color: white;
+    transition: var(--ease-color)
+}
+
+#footer-link:hover{
+    color:#ffcc00;
+}
+
 
 #footer-1{
     float: right;
@@ -251,4 +285,28 @@ footer{
     align-items: center;
     align-self: center;
     justify-self: center;
+}
+
+
+
+
+.custom-shape-divider-bottom-1656656038 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656656038 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 117px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1656656038 .shape-fill {
+    fill: #FFFFFF;
 }
