@@ -175,11 +175,18 @@ nav{
 }
 
 #welcome-container{
-    border: 1px black solid;
+    border-top: 1px black solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5vh;
+    grid-template-areas:
+    "welcomeSectionText welcomeImage"
+    "topggMedia topggSectionText";
 }
 
 #welcome-text{
     float: left;
+    grid-area: welcomeSectionText;
 }
 
 #welcome-text-title{
@@ -204,6 +211,11 @@ nav{
     float: right;
     width: 20vw !important;
     /* transform: translateX(2vh); */
+    border-radius: 75px;
+}
+
+#welcome-image{
+    grid-area: welcomeImage;
 }
 
 @media (max-width: 1440px){
@@ -211,7 +223,7 @@ nav{
         font-size: 3vh;
         /* font-size: 75px; */
         border: none;
-        color: red;
+        /* color: red; */
     }
     
     #welcome-text-subtitle{
@@ -224,12 +236,13 @@ nav{
         width: 25vh;
         /* transform: translateX(-19.5vh); */
         font-size: 1.75vh;
-        transform: translateX(40%);
+        transform: translateX(-12.5vh);
     }
     
     #welcome-image img{
         float: right;
         width: 18vw !important;
+        border-radius: 75px;
         /* transform: translateX(2vh); */
     }
 }
@@ -267,22 +280,24 @@ nav{
 
 #topgg-promo-container{
     clear: both;
-    transform: translateX(20vh) translateY(-73vh);
+    transform: translateX(16vh) translateY(-73vh);
 }
 
 #topgg-promo-widget{
     /* width: 30em; */
     width: calc(17%);
+    grid-area: topggMedia;
 }
 
 #topgg-promo-text{
     float: right;
     transform: translateX(-30vh);
+    grid-area: topggSectionText;
 }
 
 #topgg-promo-text h1{
     /* font-size: 69px; */
-    font-size: 6.25vh;
+    font-size: 6.75vh;
 }
 
 #topgg-promo-text p{
@@ -394,8 +409,8 @@ footer{
     align-items: center;
     align-self: center;
     justify-self: center;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
     width: 1200px;
     height: 1300px;
 }
@@ -417,6 +432,13 @@ footer{
 /*---------------*/
 
 
-@media (max-width: 380px){
-    /* do mobile stuff here */
+@media (max-width: 860px){
+    #welcome-container{
+        display: grid;
+        grid-template-areas:
+        "welcomeSectionText"
+        "welcomeImage"
+        "topggMedia"
+        "topggSectionText";
+    }
 }
