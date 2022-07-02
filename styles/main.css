@@ -196,12 +196,13 @@ nav{
 #welcome-text-caption{
     /* width: 700px; */
     width: 50vh;
-    transform: translateX(-19.5vh);
+    /* transform: translateX(-19.5vh); */
+    transform: translateX(calc(-38%));
 }
 
 #welcome-image{
     float: right;
-    width: 1vh;
+    width: 1vw;
     transform: translateX(-53.9vh);
 }
 
