@@ -200,10 +200,10 @@ nav{
     transform: translateX(calc(-38%));
 }
 
-#welcome-image{
+#welcome-image img{
     float: right;
-    width: 1vw;
-    transform: translateX(-53.9vh);
+    width: 20vw !important;
+    /* transform: translateX(2vh); */
 }
 
 #welcome-button-link-redirect:hover{
