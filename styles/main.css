@@ -229,7 +229,7 @@ nav{
 #topgg{
     background-image: url("svg-files/blob-1.svg");
     background-repeat: no-repeat;
-    transform: translateY(-25vh) translateX(-43vh);
+    transform: translateY(-25vh) translateX(-40vh);
     /* width: 1000px; */
     width: 60vw;
     height: 60vh;
@@ -238,7 +238,7 @@ nav{
 
 #topgg-promo-container{
     clear: both;
-    transform: translateX(17em) translateY(-62em);
+    transform: translateX(20vh) translateY(-60vh);
 }
 
 #topgg-promo-widget{
@@ -248,7 +248,7 @@ nav{
 
 #topgg-promo-text{
     float: right;
-    transform: translateX(-25em);
+    transform: translateX(-30vh);
 }
 
 #topgg-promo-text h1{
