@@ -171,7 +171,7 @@ nav{
 }
 
 #mainContent{
-    padding: 10em;
+    padding: 10vh;
 }
 
 #welcome-container{
@@ -190,19 +190,19 @@ nav{
 
 #welcome-text-subtitle{
     /* font-size: 30px; */
-    font-size: 2.25em;
+    font-size: 2.85vh;
 }
 
 #welcome-text-caption{
     /* width: 700px; */
-    width: 45em;
-    transform: translateX(-11.25em);
+    width: 50vh;
+    transform: translateX(-19.5vh);
 }
 
 #welcome-image{
     float: right;
-    width: 7em;
-    transform: translateX(-39.1em);
+    width: 7vh;
+    transform: translateX(-53.9vh);
 }
 
 #welcome-button-link-redirect:hover{
@@ -243,7 +243,7 @@ nav{
 
 #topgg-promo-widget{
     /* width: 30em; */
-    width: calc(15%);
+    width: calc(17%);
 }
 
 #topgg-promo-text{
@@ -322,7 +322,7 @@ footer{
     /* position: absolute; */
     height: auto;
     background-color: black; 
-    height: 200px;
+    height: 20vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -333,11 +333,11 @@ footer{
 #footer-0{
     float: left;
     text-align: center;
-    margin-left: 10em;
+    margin-left: 10vh;
 }
 
 #footer-title-0{
-    font-size: 18px;
+    font-size: 1.5vh;
 }
 
 #footer-link{
@@ -354,7 +354,7 @@ footer{
 #footer-1{
     float: right;
     text-decoration: none;
-    margin-right: 40em;
+    margin-right: 40vh;
 }
 
 
