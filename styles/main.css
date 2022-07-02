@@ -197,13 +197,41 @@ nav{
     /* width: 700px; */
     width: 50vh;
     /* transform: translateX(-19.5vh); */
-    transform: translateX(calc(-38%));
+    transform: translateX(calc(-18vh));
 }
 
 #welcome-image img{
     float: right;
     width: 20vw !important;
     /* transform: translateX(2vh); */
+}
+
+@media (max-width: 1440px){
+    #welcome-text-title{
+        font-size: 2.85em;
+        /* font-size: 75px; */
+        border: none;
+        color: red;
+    }
+    
+    #welcome-text-subtitle{
+        /* font-size: 30px; */
+        font-size: 2vh;
+    }
+    
+    #welcome-text-caption{
+        /* width: 700px; */
+        width: 25vh;
+        /* transform: translateX(-19.5vh); */
+        font-size: 0.95vh;
+        transform: translateX(calc(-14vh));
+    }
+    
+    #welcome-image img{
+        float: right;
+        width: 10vw !important;
+        /* transform: translateX(2vh); */
+    }
 }
 
 #welcome-button-link-redirect:hover{
