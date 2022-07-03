@@ -31,6 +31,16 @@
         <a id="nav-3" href="https://discord.gg/w8dmjAMtGd">Support</a>
     </nav>
 
+    <nav id="mobile-navbar">
+        <i class="fa-solid fa-bars" id="menu-clickable" onclick="revealMobileMenu()"></i>
+        <a id="nav-0M" href="/">Gahyeon Discord Bot</a>
+        <ul id="mobileMenuItems">
+            <li><a id="nav-1M" href="https://discord.com/oauth2/authorize?client_id=813634913885618197&permissions=2147867712&scope=bot%20applications.commands">Add Gahyeon</a></li>
+            <li><a id="nav-2M" href="pages/about.html">About</a></li>
+            <li><a id="nav-3M" href="https://discord.gg/w8dmjAMtGd">Support</a></li>
+        </ul>
+    </nav>
+
     <div id="mainContent">
         <div id="welcome-container">
             <div id="welcome-text">
@@ -98,5 +108,17 @@
             <a href="https://discord.gg/w8dmjAMtGd" id="footer-link"><i class="fa-brands fa-discord"></i> Support Server</a>
         </div>
     </footer>
+
+    <script>
+        var mobileMenu = document.getElementById("mobileMenuItems");
+        mobileMenu.style.maxHeight="0vh";
+        function revealMobileMenu(){
+            if(mobileMenu.style.maxHeight=="0vh"){
+                mobileMenu.style.maxHeight="2.75vh";
+            } else {
+                mobileMenu.style.maxHeight="0vh"
+            }
+        }
+    </script>
 </body>
 </html>
