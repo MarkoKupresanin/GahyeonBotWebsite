@@ -276,20 +276,16 @@ nav{
     /* height: 1000px; */
 }
 
-#topgg-promo-container{
-    clear: both;
-    transform: translateX(16vh) translateY(-73vh);
-}
-
 #topgg-promo-widget{
     /* width: 30em; */
     width: calc(17%);
     grid-area: topggMedia;
+    transform: translateX(18vh) translateY(-72vh);
 }
 
 #topgg-promo-text{
     float: right;
-    transform: translateX(-30vh);
+    transform: translateX(-15vh) translateY(-72vh);
     grid-area: topggSectionText;
 }
 
@@ -493,7 +489,7 @@ footer{
 
     #welcome-image img{
         border-radius: 10px;
-        /* width: 100vw; */
+        width: 100vw;
     }
 
     #welcome-button-invite-redirect{
