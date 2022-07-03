@@ -280,13 +280,14 @@ nav{
 }
 
 .custom-shape-divider-bottom-1656656038 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: translateY(-20vh);
+    /* transform: translateY(-19.75vh); */
+    transform: translateY(22vh);
 }
 .custom-shape-divider-bottom-1656656038 svg {
     position: relative;
@@ -299,25 +300,30 @@ nav{
     fill: var(--lightblue-background-bottomhalf);
     /* fill: red; */
 }
+
+
 .custom-shape-divider-bottom-1656710643 {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotateX(180deg) translateY(-87vh);
+    transform: rotateX(180deg) translateY(81vh);
 }
 .custom-shape-divider-bottom-1656710643 svg {
     position: relative;
     display: block;
     width: calc(145% + 1.3px);
-    height: 5.8em;
+    height: 5.6em;
 }
 .custom-shape-divider-bottom-1656710643 .shape-fill {
     fill: var(--lightblue-background-bottomhalf);
     /* fill: green; */
 }
+
+
+
 
 /* big blue background thing */
 #ben{
@@ -331,7 +337,6 @@ nav{
 /*--------------------------------------*/
 
 footer{
-    /* position: absolute; */
     height: auto;
     background-color: black; 
     height: 20vh;
