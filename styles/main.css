@@ -221,7 +221,11 @@ nav{
     grid-area: welcomeImage;
 }
 
-
+@media (max-width: 1440px){
+    #welcome-text-title{
+        font-size: 69px;
+    }
+}
 
 #welcome-button-link-redirect:hover{
     cursor: pointer;
