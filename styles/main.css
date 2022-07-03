@@ -188,7 +188,7 @@ nav{
 }
 
 #welcome-text{
-    float: left;
+    /* float: left; */
     grid-area: welcomeSectionText;
 }
 
@@ -206,8 +206,9 @@ nav{
 #welcome-text-caption{
     /* width: 700px; */
     width: 50vh;
+    margin-left: 0px !important;
     /* transform: translateX(-19.5vh); */
-    transform: translateX(calc(-18vh));
+    /* transform: translateX(calc(-18vh)); */
 }
 
 #welcome-image img{
@@ -223,7 +224,7 @@ nav{
 
 @media (max-width: 1440px){
     #welcome-text-title{
-        font-size: 69px;
+        font-size: 64px;
     }
 }
 
