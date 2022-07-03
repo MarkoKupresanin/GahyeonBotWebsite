@@ -45,8 +45,8 @@ nav{
     transform: translateX(1em) translateY(0.65em);
     color: var(--greyTone1);
     text-decoration: none;
-    /* font-size: 24px; */
-    font-size: 1.5em;
+    font-size: 24px;
+    /* font-size: 1.5em; */
 }
 
 #nav-0:hover{
@@ -74,7 +74,8 @@ nav{
     transition: var(--ease-navbar);
     color: var(--greyTone1);
     text-decoration: none;
-    font-size: 1.13em;
+    /* font-size: 1.13em; */
+    font-size: 18px;
 }
 
 #nav-1:hover{
@@ -112,7 +113,8 @@ nav{
     transition: var(--ease-navbar);
     color: var(--greyTone1);
     text-decoration: none;
-    font-size: 1.13em;
+    /* font-size: 1.13em; */
+    font-size: 18px;
 }
 
 #nav-2:hover{
@@ -149,7 +151,8 @@ nav{
     color: var(--greyTone1);
     text-decoration: none;
     /* font-size: 18px; */
-    font-size: 1.13em;
+    /* font-size: 1.13em; */
+    font-size: 18px;
 }
 
 #nav-3:hover{
@@ -190,14 +193,14 @@ nav{
 }
 
 #welcome-text-title{
-    font-size: 4.75em;
-    /* font-size: 75px; */
+    /* font-size: 4.75em; */
+    font-size: 75px;
     border: none;
 }
 
 #welcome-text-subtitle{
-    /* font-size: 30px; */
-    font-size: 2.85vh;
+    font-size: 30px;
+    /* font-size: 2.85vh; */
 }
 
 #welcome-text-caption{
