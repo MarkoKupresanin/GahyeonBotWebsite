@@ -214,44 +214,14 @@ nav{
     float: right;
     width: 20vw !important;
     /* transform: translateX(2vh); */
-    border-radius: 75px;
+    border-radius: 10%;
 }
 
 #welcome-image{
     grid-area: welcomeImage;
 }
 
-@media (max-width: 1440px){
-    #welcome-text-title{
-        font-size: 3vh;
-        /* font-size: 75px; */
-        border: none;
-        /* color: red; */
-    }
-    
-    #welcome-text-subtitle{
-        /* font-size: 30px; */
-        font-size: 2.25vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #welcome-text-caption{
-        /* width: 700px; */
-        width: 25vh;
-        /* transform: translateX(-19.5vh); */
-        font-size: 1.75vh;
-        transform: translateX(-12.5vh);
-    }
-    
-    #welcome-image img{
-        float: right;
-        width: 18vw !important;
-        border-radius: 75px;
-        /* transform: translateX(2vh); */
-    }
-}
+
 
 #welcome-button-link-redirect:hover{
     cursor: pointer;
