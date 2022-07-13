@@ -37,6 +37,14 @@
             <a href="https://discord.gg/w8dmjAMtGd" id="footer-link"><i class="fa-brands fa-discord"></i> Support Server</a>
         </div>
     </footer>
-
+    <script>
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ||(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform))) {
+          alert("You will be redirected to a Google Doc version of the Privacy Policy.")
+          window.location.href="https://docs.google.com/document/d/1E1bl7PrfeM-4jUhhFcG7SMCjL3O73xOxHXpp57EbqsQ/edit?usp=sharing";
+        return true
+      } else {
+        return false
+      }
+    </script>
     </body>
 </html>
